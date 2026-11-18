@@ -1,6 +1,6 @@
 import requests
 
-url = "http://ctf2.segfaulthub.com:7777/sqli_8/notice_read.php"  # 타겟 주소
+url = ""  # 타겟 주소
 #charset = " abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_{}[]"
 max_t = 10  # 최대 10개 테이블까지 시도
 table_len = 30  # 테이블 이름 최대 길이
