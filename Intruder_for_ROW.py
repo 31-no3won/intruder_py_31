@@ -1,7 +1,7 @@
 import requests
 
 # 타겟 주소
-url = "http://ctf2.segfaulthub.com:7777/sqli_8/notice_read.php"
+url = ""
 
 max_r = 10      # 최대 행 개수 추출 (필요에 따라 조절)
 row_len = 40       # 한 행 데이터 최대 길이 추정
