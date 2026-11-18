@@ -1,6 +1,6 @@
 import requests
 
-url = "http://ctf2.segfaulthub.com:7777/sqli_8/notice_read.php"
+url = ""
 
 max_c = 20            # 최대 컬럼 수
 column_len = 40               # 컬럼명 최대 길이
